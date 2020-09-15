@@ -1,59 +1,61 @@
 <template>
   <div id="section">
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="wrapper">
-            <div class="wrapperColor">
-              <head-content />
-              <div class="scrollG-wrapper">
-                <div class="scrollG">
-                  <img src="../../../../assets/image/scroll.gif" alt />
+    <div class="wrapper">
+      <div class="wrapperColor">
+        <div class="container">
+          <div class="row">
+            <head-content>
+              <div slot="showAd">
+                <div class="ad hidden-xs">
+                  <span class="glyphicon glyphicon-user"></span>
+                  <span>
+                    【新品发布】超级云名片小程序，超级销售的新商务标配。
+                    <a href="#">了解详情</a>
+                  </span>
                 </div>
               </div>
-
-              <div class="wrapperBottom">
-                <img src="../../../../assets/image/bottom.png" alt />
+              <div slot="showbrand">
+                <show-brand />
               </div>
-            </div>
+            </head-content>
           </div>
         </div>
+        <div class="scrollG-wrapper">
+          <div class="scrollG">
+            <img src="../../../../assets/image/scroll.gif" alt />
+          </div>
+        </div>
+        <div class="wrapperBottom">
+          <img src="../../../../assets/image/bottom.png" alt />
+        </div>
       </div>
-    </section>
+    </div>
   </div>
 </template>
 
 <script>
 import headContent from "./child/headContent.vue";
+import showBrand from "./child/showBrand.vue";
 export default {
   components: {
     headContent,
+    showBrand,
   },
 };
 </script>
 
 <style scoped>
-@media screen and (min-width: 1200px) {
-  #section .container {
-    width: auto;
-  }
-}
-
 .wrapper {
-  width: auto;
   height: 694px;
   background-image: url(https://static-assets.sxlcdn.com/images/landing4/spread.jpg);
 }
 .wrapperColor {
   position: relative;
-  width: auto;
   height: 694px;
   background-color: rgba(132, 91, 185, 0.92);
   overflow: hidden;
 }
-.ad {
-  background-color: #fff;
-}
+
 .head {
   margin: 0 auto;
   width: 800px;
@@ -62,15 +64,18 @@ export default {
 .wrapperBottom {
   position: absolute;
   bottom: 0;
-  height: 100px;
+  right: 0;
+  left: 0;
+  height: 150px;
 }
 .wrapperBottom img {
   width: 100%;
   height: 100%;
 }
 .scrollG-wrapper {
-  margin-top: 80px;
-  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  left: 52%;
 }
 .scrollG {
   display: inline-block;

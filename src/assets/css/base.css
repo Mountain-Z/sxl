@@ -19,19 +19,19 @@
 
 body {
   font-family: "inherit", "Helvetica Neue",
-    Helvetica,
+    'Helvetica',
     "PingFang SC",
     "Hiragino Sans GB",
     "Microsoft YaHei",
     "微软雅黑",
-    Arial,
-    sans-serif;
+    'Arial',
+    'sans-serif';
 
   -webkit-tap-highlight-color: transparent;
   /* webkit是苹果浏览器引擎，tap点击，highlight背景高亮，color颜色，颜色用数值调节 */
   background: var(--color-background);
   color: var(--color-text);
-  width: 100vw;
+
 }
 
 a {
@@ -56,16 +56,7 @@ ul {
   zoom: 1;
 }
 
-.arrow-right {
-  border-top: 1px solid #999;
-  border-left: 1px solid #999;
-  width: 9px;
-  height: 9px;
-  background-color: transparent;
-  transform: rotate(135deg);
-  display: inline-block;
-  margin-left: .1rem;
-}
+
 
 .left {
   float: left;

@@ -9,9 +9,9 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="showdoc">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-sm-4 col-sm-push-8">
             <div class="desc-wrapper">
               <div>
                 <div class="small-title">网站</div>
@@ -24,28 +24,21 @@
               </div>
             </div>
           </div>
-          <div class="col-md-7 demo-image_1">
-            <img
-              class="lazy lazyloaded"
-              data-original="https://static-assets.sxlcdn.com/images/landing-sxl/feature-site.png"
-              alt="简单易用的编辑体验"
-              style="height: auto; display: inline; max-height: 450px;"
-              src="https://static-assets.sxlcdn.com/images/landing-sxl/feature-site.png"
-            />
+          <div class="col-sm-8 col-sm-pull-4">
+            <div class="demo-image_1">
+              <img
+                class="lazy lazyloaded"
+                data-original="https://static-assets.sxlcdn.com/images/landing-sxl/feature-site.png"
+                alt="简单易用的编辑体验"
+                style="height: auto; display: inline; max-height: 450px;"
+                src="https://static-assets.sxlcdn.com/images/landing-sxl/feature-site.png"
+              />
+            </div>
           </div>
         </div>
 
-        <div class="row" style="margin-bottom:0;">
-          <div class="col-md-7">
-            <img
-              class="lazy lazyloaded"
-              data-original="https://static-assets.sxlcdn.com/images/landing-sxl/feature-wmp.png"
-              alt="智能适配任何尺寸屏幕"
-              style="height: auto; display: inline; max-height: 400px;"
-              src="https://static-assets.sxlcdn.com/images/landing-sxl/feature-wmp.png"
-            />
-          </div>
-          <div class="col-md-5">
+        <div class="row">
+          <div class="col-sm-4">
             <div class="desc-wrapper">
               <div>
                 <div class="small-title">微信小程序</div>
@@ -58,10 +51,20 @@
               </div>
             </div>
           </div>
+          <div class="col-sm-8">
+            <div class="demo-image_1">
+              <img
+                class="lazy lazyloaded"
+                data-original="https://static-assets.sxlcdn.com/images/landing-sxl/feature-wmp.png"
+                alt="智能适配任何尺寸屏幕"
+                src="https://static-assets.sxlcdn.com/images/landing-sxl/feature-wmp.png"
+              />
+            </div>
+          </div>
         </div>
 
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-sm-4 col-sm-push-8">
             <div class="desc-wrapper">
               <div>
                 <div class="small-title">电商</div>
@@ -74,18 +77,21 @@
               </div>
             </div>
           </div>
-          <div class="col-md-7">
-            <img
-              class="lazy lazyloaded"
-              data-original="https://static-assets.sxlcdn.com/images/landing-sxl/feature-ecommerce.png"
-              alt="简单易用的编辑体验"
-              style="height: auto; display: inline; max-height: 450px;"
-              src="https://static-assets.sxlcdn.com/images/landing-sxl/feature-ecommerce.png"
-            />
+          <div class="col-sm-8 col-sm-pull-4">
+            <div class="demo-image_1">
+              <img
+                class="lazy lazyloaded"
+                data-original="https://static-assets.sxlcdn.com/images/landing-sxl/feature-ecommerce.png"
+                alt="简单易用的编辑体验"
+                style="height: auto; display: inline; max-height: 450px;"
+                src="https://static-assets.sxlcdn.com/images/landing-sxl/feature-ecommerce.png"
+              />
+            </div>
           </div>
         </div>
       </div>
-      <div class="line"></div>
+
+      <hr />
       <div class="doc">
         <ul class="row">
           <li class="col-md-4">
@@ -159,6 +165,117 @@
         </ul>
       </div>
     </div>
+    <div class="lastFoot">
+      <div class="container">
+        <div class="row">
+          <h2>「上线了」的超级粉丝</h2>
+          <h4>他们用「上线了」实现互联网+</h4>
+        </div>
+
+        <div class="row fans-list">
+          <div class="col-md-4">
+            <div
+              class="fans-item"
+              style="background-image: url(&quot;https://static-assets.sxlcdn.com/images/landing-sxl/imblu.jpg&quot;);"
+            >
+              <div class="content-cover">
+                <div class="site-desc">
+                  初次使用「上线了」留下了很深的印象，imblu 的格调淋漓尽致得展现出来。
+                  <hr />
+                  <div class="site-title">imblu</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="fans-item"
+              style="background-image: url(&quot;https://static-assets.sxlcdn.com/images/landing-sxl/mantra.jpg&quot;);"
+            >
+              <div class="content-cover">
+                <div class="site-desc">
+                  「上线了」让我们的产品拓展到线上，Mantra 的公益品牌故事也广为人知。
+                  <hr />
+                  <div class="site-title">Mantra</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="fans-item"
+              style="  background-image: url(&quot;https://static-assets.sxlcdn.com/images/landing-sxl/manner-coffee.jpg&quot;);"
+            >
+              <div class="content-cover">
+                <div class="site-desc">
+                  在「上线了」创建的网站让我们与顾客紧密联系，随时更新店内活动、交流。
+                  <hr />
+                  <div class="site-title">MannerCoffee</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="paySupport">
+      <div class="container">
+        <div class="col-md-3 pay-item">
+          <img
+            class="lazy lazyloaded"
+            data-original="https://static-assets.sxlcdn.com/images/landing-sxl/service.png"
+            src="https://static-assets.sxlcdn.com/images/landing-sxl/service.png"
+            style="display: inline; max-height: 62px; height: auto;"
+          />
+          <div class="info">
+            <h3>专业客服</h3>
+            <p>7*12小时售后帮助</p>
+            <p>任何问题及时响应和解答</p>
+          </div>
+        </div>
+        <div class="col-md-3 pay-item">
+          <img
+            class="lazy lazyloaded"
+            data-original="https://static-assets.sxlcdn.com/images/landing-sxl/payment.png"
+            src="https://static-assets.sxlcdn.com/images/landing-sxl/payment.png"
+            style="display: inline; max-height: 62px; height: auto;"
+          />
+          <div class="info">
+            <h3>支付方式</h3>
+            <p>套餐及商城支付方式多方位支持</p>
+            <p>支付宝与微信支付</p>
+          </div>
+        </div>
+        <div class="col-md-3 pay-item">
+          <img
+            class="lazy lazyloaded"
+            data-original="https://static-assets.sxlcdn.com/images/landing-sxl/logo-aws.png"
+            src="https://static-assets.sxlcdn.com/images/landing-sxl/logo-aws.png"
+            style="display: inline; max-height: 62px; height: auto;"
+          />
+          <div class="info">
+            <h3>AWS 全球高级合作伙伴</h3>
+            <p>使用 AWS 提供安全稳定服务</p>
+            <p>保障网站运营</p>
+          </div>
+        </div>
+        <div class="col-md-3 pay-item">
+          <img
+            class="lazy lazyloaded"
+            data-original="https://static-assets.sxlcdn.com/images/landing-sxl/aliyun.png"
+            src="https://static-assets.sxlcdn.com/images/landing-sxl/aliyun.png"
+            style="display: inline; max-height: 62px; height: auto;"
+          />
+          <div class="info">
+            <h3>阿里云技术 MVP</h3>
+            <p>使用阿里云提供可靠的储存</p>
+            <p>数据处理支持</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div></div>
   </div>
 </template>
 
@@ -166,11 +283,39 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
+@media screen and (max-width: 768px) {
+  .demo-image_1 {
+    display: inline-block;
+    text-align: center;
+    width: 260px;
+    height: 185px;
+  }
+  .showdoc {
+    text-align: center;
+  }
+  .showdoc .desc-wrapper {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .demo-image_1 {
+    width: 480px;
+    height: 370px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .demo-image_1 {
+    width: 592px;
+    height: 434px;
+  }
+}
+
 #HomeAside {
   margin-top: 100px;
 }
-
 .aside-wrapper {
   text-align: center;
 }
@@ -184,9 +329,7 @@ export default {};
 }
 .desc-wrapper {
   display: flex;
-  align-content: center;
   flex-wrap: wrap;
-  height: 379px;
 }
 .small-title {
   font-size: 2rem;
@@ -203,8 +346,8 @@ export default {};
 .line {
   margin: 10px auto 40px;
   height: 0.5px;
-  width: 1000px;
-  background-color: rgba(0, 0, 0, 0.3);
+  width: 1200px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .doc h3 {
   color: #444;
@@ -216,5 +359,60 @@ export default {};
 }
 .doc p {
   color: #636972;
+}
+.lastFoot {
+  background-color: #f8f8f8;
+  padding: 60px 0;
+}
+.lastFoot h2 {
+  color: #536682;
+  font-size: 2em;
+  text-align: center;
+}
+.lastFoot h4 {
+  text-align: center;
+  color: #888b8d;
+}
+.fans-list {
+  margin: 20px 0;
+}
+.fans-item {
+  height: 450px;
+  width: 320px;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+.content-cover {
+  height: 450px;
+  width: 320px;
+  margin-left: -20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+.content-cover .site-desc {
+  width: 250px;
+  padding-top: 240px;
+  padding-left: 50px;
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+.paySupport {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.info h3 {
+  font-size: 1.5rem;
+}
+.info p {
+  color: #888b8d;
+}
+
+.demo-image_1 img {
+  width: 100%;
+  height: 100%;
+}
+.showdoc {
+  padding: 20px 0;
 }
 </style>
