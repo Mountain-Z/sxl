@@ -10,7 +10,9 @@
               <img src="../../../../../assets/image/logo.png" />
             </div>
             <div class="row">
-              <div class="showMessage">十分钟创建网站和小程序，无需专业技术知识与设计经验</div>
+              <slot name="showMessage">
+                <div class="showMessage">十分钟创建网站和小程序，无需专业技术知识与设计经验</div>
+              </slot>
             </div>
             <div class="showContent">
               <div class="row">
@@ -50,7 +52,7 @@
                 </div>
               </div>
             </div>
-            <hr />
+
             <slot name="showbrand" />
             <slot name="otherInfo" />
           </div>
@@ -73,6 +75,7 @@ export default {
 <style scoped>
 .content {
   padding: 20px 40px;
+  /* border-bottom: 0.5px solid rgba(255, 255, 255, 0.5); */
 }
 .meu {
   height: 50px;
@@ -85,13 +88,13 @@ export default {
   border-radius: 10px;
   line-height: 50px;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .imgLogo {
   height: 46px;
   width: 96px;
-  margin: 40px auto 40px;
+  margin: 20px auto 40px;
 }
 .imgLogo img {
   width: 100%;
@@ -116,7 +119,7 @@ export default {
 }
 .start {
   white-space: normal;
-  padding: 10px 25px;
+  padding: 10px 25px 0;
   min-width: 220px;
   -webkit-appearance: none;
   background-color: #f7c10d;
@@ -150,7 +153,7 @@ export default {
 }
 .set-code {
   margin: 0 auto;
-  padding: 20px 10px 10px 0;
+  padding: 10px 10px 10px 0;
 }
 @media screen and (max-width: 768px) {
   .set-code {

@@ -94,34 +94,34 @@
       <hr />
       <div class="doc">
         <ul class="row">
-          <li class="col-md-4">
+          <li class="col-sm-4">
             <div class="row">
-              <div class="col-md-1">
+              <div class="col-xs-1">
                 <span class="glyphicon glyphicon-user"></span>
               </div>
-              <div class="col-md-11">
+              <div class="col-xs-11">
                 <h3>专属域名</h3>
                 <p>绑定自己的域名，建立品牌形象</p>
               </div>
             </div>
           </li>
-          <li class="col-md-4">
+          <li class="col-sm-4">
             <div class="row">
-              <div class="col-md-1">
+              <div class="col-xs-1">
                 <span class="glyphicon glyphicon-gift"></span>
               </div>
-              <div class="col-md-11">
+              <div class="col-xs-11">
                 <h3>简易商店</h3>
                 <p>完善的电子商务功能，不收交易佣金，支持支付宝、微信支付方式</p>
               </div>
             </div>
           </li>
-          <li class="col-md-4">
+          <li class="col-sm-4">
             <div class="row">
-              <div class="col-md-1">
+              <div class="col-xs-1">
                 <span class="glyphicon glyphicon-edit"></span>
               </div>
-              <div class="col-md-11">
+              <div class="col-xs-11">
                 <h3>撰写文章</h3>
                 <p>简约设计，方便管理，让你的访客及时了解网站动态资讯，每篇文章都拥有专属页面</p>
               </div>
@@ -129,34 +129,34 @@
           </li>
         </ul>
         <ul class="row">
-          <li class="col-md-4">
+          <li class="col-sm-4">
             <div class="row">
-              <div class="col-md-1">
+              <div class="col-xs-1">
                 <span class="glyphicon glyphicon-equalizer"></span>
               </div>
-              <div class="col-md-11">
+              <div class="col-xs-11">
                 <h3>数据分析</h3>
                 <p>网站内设有浏览量数据监测，简易图表助你时刻掌握流量动向</p>
               </div>
             </div>
           </li>
-          <li class="col-md-4">
+          <li class="col-sm-4">
             <div class="row">
-              <div class="col-md-1">
+              <div class="col-xs-1">
                 <span class="glyphicon glyphicon-info-sign"></span>
               </div>
-              <div class="col-md-11">
+              <div class="col-xs-11">
                 <h3>注册与留言功能</h3>
                 <p>迅速收集用户反馈，方便访客注册申请，和你的用户时刻保持联系</p>
               </div>
             </div>
           </li>
-          <li class="col-md-4">
+          <li class="col-sm-4">
             <div class="row">
-              <div class="col-md-1">
+              <div class="col-xs-1">
                 <span class="glyphicon glyphicon-blackboard"></span>
               </div>
-              <div class="col-md-11">
+              <div class="col-xs-11">
                 <h3>第三方服务集成</h3>
                 <p>与微信公众号深度集成，并提供第三方服务如百度地图、金数据表单等</p>
               </div>
@@ -171,47 +171,53 @@
           <h2>「上线了」的超级粉丝</h2>
           <h4>他们用「上线了」实现互联网+</h4>
         </div>
-
-        <div class="row fans-list">
-          <div class="col-md-4">
-            <div
-              class="fans-item"
-              style="background-image: url(&quot;https://static-assets.sxlcdn.com/images/landing-sxl/imblu.jpg&quot;);"
-            >
-              <div class="content-cover">
-                <div class="site-desc">
-                  初次使用「上线了」留下了很深的印象，imblu 的格调淋漓尽致得展现出来。
-                  <hr />
-                  <div class="site-title">imblu</div>
+        <div class="fans-list">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12 col-sm-offset-0">
+              <div class="fans-doc">
+                <div
+                  class="fans-item"
+                  style="background-image: url(&quot;https://static-assets.sxlcdn.com/images/landing-sxl/imblu.jpg&quot;);background-repeat:no-repeat;"
+                >
+                  <div class="content-cover">
+                    <div class="site-desc">
+                      初次使用「上线了」留下了很深的印象，imblu 的格调淋漓尽致得展现出来。
+                      <hr />
+                      <div class="site-title">imblu</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div
-              class="fans-item"
-              style="background-image: url(&quot;https://static-assets.sxlcdn.com/images/landing-sxl/mantra.jpg&quot;);"
-            >
-              <div class="content-cover">
-                <div class="site-desc">
-                  「上线了」让我们的产品拓展到线上，Mantra 的公益品牌故事也广为人知。
-                  <hr />
-                  <div class="site-title">Mantra</div>
+            <div class="col-md-4 col-sm-6 col-xs-12 col-sm-offset-0">
+              <div class="fans-doc">
+                <div
+                  class="fans-item"
+                  style="background-image: url(&quot;https://static-assets.sxlcdn.com/images/landing-sxl/mantra.jpg&quot;);background-repeat:no-repeat;"
+                >
+                  <div class="content-cover">
+                    <div class="site-desc">
+                      「上线了」让我们的产品拓展到线上，Mantra 的公益品牌故事也广为人知。
+                      <hr />
+                      <div class="site-title">Mantra</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-md-4">
-            <div
-              class="fans-item"
-              style="  background-image: url(&quot;https://static-assets.sxlcdn.com/images/landing-sxl/manner-coffee.jpg&quot;);"
-            >
-              <div class="content-cover">
-                <div class="site-desc">
-                  在「上线了」创建的网站让我们与顾客紧密联系，随时更新店内活动、交流。
-                  <hr />
-                  <div class="site-title">MannerCoffee</div>
+            <div class="col-md-4 col-sm-6 col-xs-12 col-sm-offset-0">
+              <div class="fans-doc">
+                <div
+                  class="fans-item"
+                  style="  background-image: url(&quot;https://static-assets.sxlcdn.com/images/landing-sxl/manner-coffee.jpg&quot;);background-repeat:no-repeat;"
+                >
+                  <div class="content-cover">
+                    <div class="site-desc">
+                      在「上线了」创建的网站让我们与顾客紧密联系，随时更新店内活动、交流。
+                      <hr />
+                      <div class="site-title">MannerCoffee</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -221,7 +227,7 @@
     </div>
     <div class="paySupport">
       <div class="container">
-        <div class="col-md-3 pay-item">
+        <div class="col-xs-3 pay-item">
           <img
             class="lazy lazyloaded"
             data-original="https://static-assets.sxlcdn.com/images/landing-sxl/service.png"
@@ -234,7 +240,7 @@
             <p>任何问题及时响应和解答</p>
           </div>
         </div>
-        <div class="col-md-3 pay-item">
+        <div class="col-xs-3 pay-item">
           <img
             class="lazy lazyloaded"
             data-original="https://static-assets.sxlcdn.com/images/landing-sxl/payment.png"
@@ -247,7 +253,7 @@
             <p>支付宝与微信支付</p>
           </div>
         </div>
-        <div class="col-md-3 pay-item">
+        <div class="col-xs-3 pay-item">
           <img
             class="lazy lazyloaded"
             data-original="https://static-assets.sxlcdn.com/images/landing-sxl/logo-aws.png"
@@ -260,7 +266,7 @@
             <p>保障网站运营</p>
           </div>
         </div>
-        <div class="col-md-3 pay-item">
+        <div class="col-xs-3 pay-item">
           <img
             class="lazy lazyloaded"
             data-original="https://static-assets.sxlcdn.com/images/landing-sxl/aliyun.png"
@@ -275,7 +281,6 @@
         </div>
       </div>
     </div>
-    <div></div>
   </div>
 </template>
 
@@ -297,6 +302,9 @@ export default {};
   .showdoc .desc-wrapper {
     display: inline-block;
   }
+  .fans-doc {
+    margin-left: 15%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -311,6 +319,20 @@ export default {};
     width: 592px;
     height: 434px;
   }
+}
+
+.fans-doc {
+  width: 300px;
+  padding: 10px 0 0 10px;
+  overflow: hidden;
+}
+.fans-list {
+  margin: 20px 0;
+}
+.fans-item {
+  height: 450px;
+  width: 300px;
+  overflow: hidden;
 }
 
 #HomeAside {
@@ -373,19 +395,10 @@ export default {};
   text-align: center;
   color: #888b8d;
 }
-.fans-list {
-  margin: 20px 0;
-}
-.fans-item {
-  height: 450px;
-  width: 320px;
-  padding: 10px 20px;
-  overflow: hidden;
-}
+
 .content-cover {
   height: 450px;
   width: 320px;
-  margin-left: -20px;
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
 }

@@ -1,5 +1,6 @@
 <template>
   <div id="footInfo">
+    <div class="line"></div>
     <div class="footer-links friendly-links">
       <div class="links-item">
         <span>友情链接：</span>
@@ -158,6 +159,7 @@ export default {};
   line-height: 200%;
   text-align: center;
 }
+
 .footer-links {
   padding: 20px 0;
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);

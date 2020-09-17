@@ -24,6 +24,14 @@ export default {
 </script>
 
 <style scoped>
+@media screen and (max-width: 768px) {
+  #homeFoot .wrapper {
+    height: 1100px;
+  }
+  #homeFoot .wrapperColor {
+    height: 1100px;
+  }
+}
 .wrapper {
   width: auto;
   height: 694px;

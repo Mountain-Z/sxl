@@ -63,9 +63,11 @@ export default {
 }
 .wrapperBottom {
   position: absolute;
+  width: 100%;
+  text-align: center;
   bottom: 0;
   right: 0;
-  left: 0;
+  left: 0px;
   height: 150px;
 }
 .wrapperBottom img {
@@ -73,9 +75,9 @@ export default {
   height: 100%;
 }
 .scrollG-wrapper {
-  position: absolute;
-  bottom: 30px;
-  left: 52%;
+  margin-top: 5%;
+  margin-left: 4%;
+  text-align: center;
 }
 .scrollG {
   display: inline-block;

@@ -15,34 +15,38 @@ Vue.use(VueRouter)
 
 const routes = [{
     path: '/',
+    redirect: '/Home'
+  },
+  {
+    path: '/Home',
     name: 'Home',
     component: Home
   }, {
-    path: '/',
+    path: '/discover',
     name: 'discover',
     component: discover
   }, {
-    path: '/',
+    path: '/domins',
     name: 'domins',
     component: domins
   }, {
-    path: '/',
+    path: '/downloadApp',
     name: 'downloadApp',
     component: downloadApp
   }, {
-    path: '/',
+    path: '/help',
     name: 'help',
     component: help
   }, {
-    path: '/',
+    path: '/joinus',
     name: 'joinus',
     component: joinus
   }, {
-    path: '/',
+    path: '/logoDisign',
     name: 'logoDisign',
     component: logoDisign
   }, {
-    path: '/',
+    path: '/miniprogram',
     name: 'miniprogram',
     component: miniprogram
   },
