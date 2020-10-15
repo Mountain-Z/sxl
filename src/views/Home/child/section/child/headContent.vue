@@ -11,7 +11,9 @@
             </div>
             <div class="row">
               <slot name="showMessage">
-                <div class="showMessage">十分钟创建网站和小程序，无需专业技术知识与设计经验</div>
+                <div class="showMessage">
+                  十分钟创建网站和小程序，无需专业技术知识与设计经验
+                </div>
               </slot>
             </div>
             <div class="showContent">
@@ -27,7 +29,12 @@
                       <div class="achieveCode">
                         <input
                           type="text"
-                          style="height:44px;border:none;outline:none;flex:1"
+                          style="
+                            height: 44px;
+                            border: none;
+                            outline: none;
+                            flex: 1;
+                          "
                           class="form-control"
                           aria-label="..."
                           placeholder="请输入验证码"
@@ -119,7 +126,7 @@ export default {
 }
 .start {
   white-space: normal;
-  padding: 10px 25px 0;
+  padding: 10px 25px;
   min-width: 220px;
   -webkit-appearance: none;
   background-color: #f7c10d;

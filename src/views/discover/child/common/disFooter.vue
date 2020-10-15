@@ -58,6 +58,7 @@ export default {
   bottom: 0;
   top: 0;
   background-image: url(https://static-assets.sxlcdn.com/images/fadebg.png);
+  background-size: cover;
 }
 .responsive-demo-image {
   max-width: 100%;

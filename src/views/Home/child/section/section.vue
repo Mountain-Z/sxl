@@ -5,7 +5,7 @@
         <div class="container">
           <div class="row">
             <head-content>
-              <div slot="showAd">
+              <template v-slot:showAd>
                 <div class="ad hidden-xs">
                   <span class="glyphicon glyphicon-user"></span>
                   <span>
@@ -13,7 +13,7 @@
                     <a href="#">了解详情</a>
                   </span>
                 </div>
-              </div>
+              </template>
               <div slot="showbrand">
                 <show-brand />
               </div>

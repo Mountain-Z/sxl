@@ -1,5 +1,4 @@
 # sxl
-
 ## Project setup
 ```
 npm install
